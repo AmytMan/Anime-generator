@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, lightblue ,rgb(186, 186, 111));
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+.title{
+    margin: 4px auto 8px auto;
+    font-family: 'Pacifico', cursive;
+    
+}
+.container{
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 450px;
+    
+    
+}
+.btn{
+    background: green;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: beige;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.btn:disabled{
+    background: grey;
+   cursor: not-allowed;
+  
+}
+.anime-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: green 1px solid;
+    
+}
+.anime-name{
+    background: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 70%;
+    margin: 8px auto;
+    padding: 4px;
+}
+.anime-container{
+    display: none;
+}
+.newclass{
+   
+   color: red;
+   background: wheat;
+}
